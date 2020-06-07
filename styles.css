@@ -1,6 +1,15 @@
-.content{
-  padding: 15px;
-  background-color: rgba(0, 102, 255, 0.5);
-  width: 100%;
+body{
+  background-color: rgba(0, 102, 255);
 
+}
+
+.content{
+  background: rgba(255,255,255, 0.5);
+
+}
+
+@media screen and (max-width: 600px){
+  .content{
+    width: 100%;
+  }
 }
