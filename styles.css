@@ -1,15 +1,67 @@
 body{
-  background-color: rgba(0, 102, 255);
+  background-color: grey;
+}
 
+p{
+  text-align: justify;
 }
 
 .content{
-  background: rgba(255,255,255, 0.5);
 
+}
+
+.profile{
+
+  float: left;
+  width: 100%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow:0 2px 5px 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.profile:hover{
+  background-color: rgb(204, 204, 204);
+}
+
+.timeline{
+  width: 100%;
+  float: right;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow:0 2px 5px 0;
+  padding-left:8px;
+
+}
+
+.timeline:hover{
+  background-color: rgb(204, 204, 204);
+}
+
+.project{
+
+  width: 33%;
+}
+
+.skill{
+  width: 50%;
 }
 
 @media screen and (max-width: 600px){
   .content{
     width: 100%;
+  }
+}
+
+@media (min-width:600px){
+  .profile{
+    width: 30%;
+  }
+
+  .timeline{
+    width: 68%;
   }
 }
