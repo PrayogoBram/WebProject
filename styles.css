@@ -5,6 +5,13 @@ body{
 p{
   text-align: justify;
 }
+h3{
+  padding-left: 15px;
+}
+h5{
+  line-height:0.1;
+  padding-bottom:5px;
+}
 
 .content{
 
@@ -18,8 +25,8 @@ p{
   margin-left: auto;
   margin-right: auto;
   box-shadow:0 2px 5px 0;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 0 5px;
+  margin-bottom: 10px;
 }
 
 .profile:hover{
@@ -28,12 +35,13 @@ p{
 
 .timeline{
   width: 100%;
-  float: right;
+  float: left;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
+
   box-shadow:0 2px 5px 0;
-  padding-left:8px;
+  padding:0 5px;
 
 }
 
@@ -62,6 +70,7 @@ p{
   }
 
   .timeline{
-    width: 68%;
+    width: 67%;
+
   }
 }
