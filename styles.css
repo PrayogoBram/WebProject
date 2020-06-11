@@ -39,7 +39,7 @@ h5{
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-
+  margin-bottom: 10px;
   box-shadow:0 2px 5px 0;
   padding:0 5px;
 
@@ -49,13 +49,51 @@ h5{
   background-color: rgb(204, 204, 204);
 }
 
-.project{
+.school{
+  width: 100%;
+  float: left;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  box-shadow:0 2px 5px 0;
+  padding:0 5px;
 
+}
+
+.school:hover, .skill:hover{
+  background-color: rgb(204, 204, 204);
+}
+
+.project{
+  width: 100%;
+  float: left;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-top:25px;
+  box-shadow:0 2px 5px 0;
+  padding:0 5px;
   width: 33%;
 }
 
 .skill{
-  width: 50%;
+  width: 100%;
+  float: left;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-top:25px;
+  box-shadow:0 2px 5px 0;
+  padding:0 5px;
+}
+.grey-skill{
+  background: grey;
+}
+.green-skill{
+  background: green;
 }
 
 @media screen and (max-width: 600px){
@@ -65,12 +103,11 @@ h5{
 }
 
 @media (min-width:600px){
-  .profile{
+  .profile, .skill{
     width: 30%;
   }
-
-  .timeline{
+  .school, .project, .timeline{
     width: 67%;
-
   }
+
 }
